@@ -1,0 +1,3 @@
+rootProject.name = 'contentfulRN'
+
+include ':app'
