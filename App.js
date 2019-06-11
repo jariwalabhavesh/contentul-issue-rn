@@ -8,7 +8,7 @@
 
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
-import { createClient } from 'contentful';
+import {createClient} from 'contentful/dist/contentful.browser.js'; // or contentful/dist/contentful.browser.min.js
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
   android:
